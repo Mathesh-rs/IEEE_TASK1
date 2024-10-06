@@ -1,4 +1,3 @@
-// Fetch data and create the chart
 async function fetchLanguageData() {
     const response = await fetch('/api/language-data');
     const data = await response.json();
